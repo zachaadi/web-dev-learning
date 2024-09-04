@@ -1,3 +1,25 @@
 p {
-  color: red;
+  color: blue;
+}
+
+html {
+  font-family: 'Alatsi', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.players {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+html {
+background-color: rgb(235, 243, 238)
+}
+
+body {
+  margin: 0px 20px;
 }
