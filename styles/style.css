@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: 'Alatsi';
+  src: url('https://fonts.bunny.net/css?family=alatsi');
+}
 
 html {
   font-family: 'Alatsi', sans-serif;
@@ -20,4 +23,30 @@ background-color: rgb(235, 243, 238)
 
 body {
   margin: 0px 20px;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.iant-link {
+  color: green
+}
+
+.iant-link:hover {
+  color: red
+}
+
+
+.inner {
+  border: 5px solid red;
+  width: 300px;
+  transform: rotate(20deg);
+  margin-left: 50px;
 }
