@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Alatsi';
-  src: url('https://fonts.bunny.net/css?family=alatsi');
-}
-
 html {
   font-family: 'Alatsi', sans-serif;
 }
@@ -23,6 +18,25 @@ background-color: rgb(235, 243, 238)
 
 body {
   margin: 0px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
 }
 
 nav li {
