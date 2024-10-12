@@ -1,0 +1,27 @@
+.iant-link {
+  color: rgb(66, 107, 219);
+  display: block;
+  margin-top: 15px;
+  padding: 5px;
+  max-width: fit-content;
+  text-decoration: none;
+}
+
+.iant-link:hover {
+  text-decoration: underline;
+}
+
+.fun-box {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.players {
+  width: 200px;
+  display: inline;
+  margin: 50px 50px 50px 300px;
+}
