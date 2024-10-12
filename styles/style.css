@@ -16,15 +16,15 @@ html {
 background-color: rgb(235, 243, 238)
 }
 
-body {
+/* body {
   margin: 0px 20px;
-}
+} */
 
-nav {
+/* nav {
   display: flex;
   justify-content: center;
   margin: 20px 0;
-}
+} */
 
 nav ul {
   padding: 0;
@@ -39,18 +39,14 @@ nav li {
   flex: 1;
 }
 
-nav li {
-  list-style-type: none;
-  margin: 10px 0;
-  text-decoration: none;
-}
-
 nav a {
   text-decoration: none;
 }
 
 .iant-link {
-  color: green
+  color: green;
+  display: block;
+  padding-top: 20px;
 }
 
 .iant-link:hover {
@@ -61,6 +57,14 @@ nav a {
 .inner {
   border: 5px solid red;
   width: 300px;
-  transform: rotate(20deg);
-  margin-left: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.fun-box {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+  /* display: inline-block; */
 }
